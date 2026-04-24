@@ -61,7 +61,7 @@ publicando na branch `gh-pages`.
 `Deploy from a branch` → `gh-pages` → `/ (root)`.
 
 **Domínio customizado** (quando pronto): configurar em *Settings → Pages → Custom domain*
-e criar `docs/CNAME` com o domínio. Atualizar DNS com CNAME para `matheusalbmd.github.io`.
+e criar `docs/CNAME` com o domínio. Atualizar DNS com CNAME para `bimmatheus.github.io`.
 
 ## Convenções de conteúdo
 

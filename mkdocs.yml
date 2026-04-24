@@ -1,9 +1,9 @@
 site_name: Central de Suporte OFHidraulico
 site_description: Documentação oficial do plugin OFHidraulico para Revit
 site_author: 3F LTDA / BIMSPACE
-site_url: https://matheusalbmd.github.io/ofhidraulico-suporte/
-repo_url: https://github.com/matheusalbmd/ofhidraulico-suporte
-repo_name: matheusalbmd/ofhidraulico-suporte
+site_url: https://bimmatheus.github.io/ofhidraulico-suporte/
+repo_url: https://github.com/bimmatheus/ofhidraulico-suporte
+repo_name: bimmatheus/ofhidraulico-suporte
 edit_uri: edit/main/docs/
 copyright: Copyright &copy; 3F LTDA / BIMSPACE
 docs_dir: docs
