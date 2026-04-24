@@ -1,0 +1,108 @@
+site_name: Central de Suporte OFHidraulico
+site_description: Documentação oficial do plugin OFHidraulico para Revit
+site_author: 3F LTDA / BIMSPACE
+site_url: https://matheusalbmd.github.io/ofhidraulico-suporte/
+repo_url: https://github.com/matheusalbmd/ofhidraulico-suporte
+repo_name: matheusalbmd/ofhidraulico-suporte
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 3F LTDA / BIMSPACE
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang:
+        - pt
+        - en
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - footnotes
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  version: 2.5.9.10
+  social:
+    - icon: fontawesome/brands/whatsapp
+      link: https://chat.whatsapp.com/GPZPdhudfMYKrr6JgI25MY
+      name: Comunidade no WhatsApp
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/watch?v=dPam0LiZwKY&list=PLEHUqB9ix5mGgWZKRhnbwjyVjQ0Ohaqcl
+      name: Tutoriais no YouTube
+
+nav:
+  - Início: index.md
+  - Primeiros passos:
+      - primeiros-passos/index.md
+      - Configurações gerais: primeiros-passos/configuracoes-gerais.md
+  - Catálogo e peças:
+      - catalogo-e-pecas/index.md
+      - Gerenciador de peças: catalogo-e-pecas/gerenciador-de-pecas.md
+  - Modelando a rede:
+      - modelagem/index.md
+  - Sistemas hidráulicos:
+      - sistemas-hidraulicos/index.md
+      - Gerenciador de sistemas: sistemas-hidraulicos/gerenciador-de-sistemas.md
+  - Colunas e verticais:
+      - colunas/index.md
+  - Dimensionamento:
+      - dimensionamento/index.md
+  - Documentação e pranchas:
+      - documentacao/index.md
+  - Integrações:
+      - integracoes/index.md
+  - Solução de problemas:
+      - troubleshooting/index.md
+  - Downloads: downloads/index.md
+  - Contato e comunidade:
+      - contato/index.md
