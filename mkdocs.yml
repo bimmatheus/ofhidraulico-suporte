@@ -97,8 +97,13 @@ nav:
       - colunas/index.md
   - Dimensionamento:
       - dimensionamento/index.md
+      - Fluxo de água quente e fria: dimensionamento/fluxo-agua-quente-fria.md
+      - Cálculo de pressão: dimensionamento/calculo-de-pressao.md
+      - Perda de carga em hidrômetros: dimensionamento/perda-de-carga-hidrometros.md
+      - Bombas e dimensionamento: dimensionamento/bombas-e-dimensionamento.md
   - Documentação e pranchas:
       - documentacao/index.md
+      - Painel de propriedades (OFH): documentacao/painel-de-propriedades.md
   - Integrações:
       - integracoes/index.md
   - Solução de problemas:
