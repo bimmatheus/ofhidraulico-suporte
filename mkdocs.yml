@@ -85,9 +85,7 @@ nav:
   - Primeiros passos:
       - primeiros-passos/index.md
       - Configurações gerais: primeiros-passos/configuracoes-gerais.md
-  - Catálogo e peças:
-      - catalogo-e-pecas/index.md
-      - Gerenciador de peças: catalogo-e-pecas/gerenciador-de-pecas.md
+  - Gerenciador de peças: catalogo-e-pecas/gerenciador-de-pecas.md
   - Modelando a rede:
       - modelagem/index.md
   - Sistemas hidráulicos:

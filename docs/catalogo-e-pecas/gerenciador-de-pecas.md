@@ -1,9 +1,5 @@
 # Gerenciador de peças
 
-> **Disponibilidade:** Projeto com entidade OFH criada (rode **Configurações gerais** ao menos uma vez)
-> **Painel do ribbon:** Configurações
-> **Atalho:** F1 sobre o botão abre o vídeo oficial
-
 ## O que faz
 
 Abre a janela central de configuração das **peças, conexões, acessórios, reservatórios e
@@ -13,8 +9,7 @@ pressão, comprimento equivalente, etc.).
 
 Tudo o que você configura aqui é usado em:
 
-- **PipeBuilder** — auto-roteamento usa diâmetros mínimos e ângulos de conexão
-- **Gerenciador de sistemas** — usa fixture units e vazões para calcular sistema
+- **Gerenciador de sistemas** — usa pesos e vazões para calcular sistema
 - **Cálculo de pressão** — usa comprimentos equivalentes e perdas localizadas
 - **Relatório de dimensionamento** — exporta tudo isso para Excel
 
@@ -33,16 +28,11 @@ Tudo o que você configura aqui é usado em:
 ## Pré-requisitos
 
 - [ ] Projeto Revit aberto
-- [ ] **Configurações gerais** já executada (cria a entidade OFH no documento)
 - [ ] Famílias hidráulicas carregadas no projeto
 
-## Como abrir
-
-No ribbon: **OFHidraulico → Configurações → Equipment Manager**.
-
-A janela é redimensionável — começa em 900×650 e tem mínimo de 650×500.
-
 ## Layout da janela — 4 áreas
+
+![Janela do Gerenciador de peças mostrando a árvore de equipamentos (Peças de Utilização → Ducha) e o painel de propriedades à direita](images/gerenciador-de-pecas-janela.png)
 
 A janela do Gerenciador é dividida em **4 áreas funcionais**:
 

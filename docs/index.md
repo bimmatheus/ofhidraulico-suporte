@@ -18,13 +18,13 @@ Encontre tutoriais, documentação técnica e respostas rápidas para os comando
 
     [:octicons-arrow-right-24: Começar](primeiros-passos/index.md)
 
--   :material-database-cog:{ .lg .middle } __Catálogo e peças__
+-   :material-database-cog:{ .lg .middle } __Gerenciador de peças__
 
     ---
 
-    Gerenciador de peças hidrossanitárias, fixture units e importação do catálogo.
+    Configuração das peças hidrossanitárias do projeto: pesos, vazões e importação do catálogo.
 
-    [:octicons-arrow-right-24: Acessar](catalogo-e-pecas/index.md)
+    [:octicons-arrow-right-24: Acessar](catalogo-e-pecas/gerenciador-de-pecas.md)
 
 -   :material-pipe:{ .lg .middle } __Modelando a rede__
 
