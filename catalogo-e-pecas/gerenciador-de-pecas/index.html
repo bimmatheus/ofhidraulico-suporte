@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://bimmatheus.github.io/ofhidraulico-suporte/catalogo-e-pecas/gerenciador-de-pecas/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../../primeiros-passos/configuracoes-gerais/">
       
       
         <link rel="next" href="../../modelagem/">
@@ -278,18 +278,17 @@
     
   
   
-    
-    
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
-          
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
   
   
-  Catálogo e peças
+    
+  
+  Gerenciador de peças
 
-        </a>
-      </li>
-    
+      </a>
+    </li>
   
 
       
@@ -686,91 +685,6 @@
   
   
   
-    
-    
-    
-    
-      
-        
-        
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Catálogo e peças
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Catálogo e peças
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Catálogo e peças
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
@@ -856,17 +770,6 @@
     <span class="md-ellipsis">
       
         Pré-requisitos
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#como-abrir" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Como abrir
       
     </span>
   </a>
@@ -1070,14 +973,6 @@
     </ul>
   
 </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -2061,17 +1956,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-abrir" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Como abrir
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#layout-da-janela-4-areas" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2286,11 +2170,6 @@
 
 
 <h1 id="gerenciador-de-pecas">Gerenciador de peças<a class="headerlink" href="#gerenciador-de-pecas" title="Permanent link">&para;</a></h1>
-<blockquote>
-<p><strong>Disponibilidade:</strong> Projeto com entidade OFH criada (rode <strong>Configurações gerais</strong> ao menos uma vez)
-<strong>Painel do ribbon:</strong> Configurações
-<strong>Atalho:</strong> F1 sobre o botão abre o vídeo oficial</p>
-</blockquote>
 <h2 id="o-que-faz">O que faz<a class="headerlink" href="#o-que-faz" title="Permanent link">&para;</a></h2>
 <p>Abre a janela central de configuração das <strong>peças, conexões, acessórios, reservatórios e
 bombas</strong> do plugin OFHidraulico. É onde você diz ao plugin <strong>quais famílias do Revit têm
@@ -2298,8 +2177,7 @@ significado hidráulico</strong> e <strong>quais propriedades</strong> elas carr
 pressão, comprimento equivalente, etc.).</p>
 <p>Tudo o que você configura aqui é usado em:</p>
 <ul>
-<li><strong>PipeBuilder</strong> — auto-roteamento usa diâmetros mínimos e ângulos de conexão</li>
-<li><strong>Gerenciador de sistemas</strong> — usa fixture units e vazões para calcular sistema</li>
+<li><strong>Gerenciador de sistemas</strong> — usa pesos e vazões para calcular sistema</li>
 <li><strong>Cálculo de pressão</strong> — usa comprimentos equivalentes e perdas localizadas</li>
 <li><strong>Relatório de dimensionamento</strong> — exporta tudo isso para Excel</li>
 </ul>
@@ -2319,13 +2197,10 @@ refletir os novos valores.</p>
 <h2 id="pre-requisitos">Pré-requisitos<a class="headerlink" href="#pre-requisitos" title="Permanent link">&para;</a></h2>
 <ul>
 <li>[ ] Projeto Revit aberto</li>
-<li>[ ] <strong>Configurações gerais</strong> já executada (cria a entidade OFH no documento)</li>
 <li>[ ] Famílias hidráulicas carregadas no projeto</li>
 </ul>
-<h2 id="como-abrir">Como abrir<a class="headerlink" href="#como-abrir" title="Permanent link">&para;</a></h2>
-<p>No ribbon: <strong>OFHidraulico → Configurações → Equipment Manager</strong>.</p>
-<p>A janela é redimensionável — começa em 900×650 e tem mínimo de 650×500.</p>
 <h2 id="layout-da-janela-4-areas">Layout da janela — 4 áreas<a class="headerlink" href="#layout-da-janela-4-areas" title="Permanent link">&para;</a></h2>
+<p><img alt="Janela do Gerenciador de peças mostrando a árvore de equipamentos (Peças de Utilização → Ducha) e o painel de propriedades à direita" src="../images/gerenciador-de-pecas-janela.png" /></p>
 <p>A janela do Gerenciador é dividida em <strong>4 áreas funcionais</strong>:</p>
 <table>
 <thead>
@@ -2603,7 +2478,7 @@ preencha os campos faltantes na <strong>Área 4</strong> da janela.</p>
       <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
         
           
-          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Catálogo e peças">
+          <a href="../../primeiros-passos/configuracoes-gerais/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Configurações gerais">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2613,7 +2488,7 @@ preencha os campos faltantes na <strong>Área 4</strong> da janela.</p>
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Catálogo e peças
+                Configurações gerais
               </div>
             </div>
           </a>
